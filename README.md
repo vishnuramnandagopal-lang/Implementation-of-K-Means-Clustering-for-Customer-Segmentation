@@ -19,7 +19,7 @@ To write a program to implement the K Means Clustering for Customer Segmentation
 Program to implement the K Means Clustering for Customer Segmentation.
 Developed by: Vishnuram.G.N
 RegisterNumber:  212225240187
-
+```
 import pandas as pd
 import matplotlib.pyplot as plt
 data = pd.read_csv("Mall_Customers.csv")
@@ -53,6 +53,7 @@ plt.scatter(df3["Annual Income (k$)"],df3["Spending Score (1-100)"],c="green",la
 plt.scatter(df4["Annual Income (k$)"],df4["Spending Score (1-100)"],c="magenta",label="cluster5")
 plt.legend()
 plt.title("Customer Segments")
+```
 
 ## Output:
 <img width="1009" height="3339" alt="image" src="https://github.com/user-attachments/assets/79315667-3855-45a8-936b-37cb0b679d3b" />
