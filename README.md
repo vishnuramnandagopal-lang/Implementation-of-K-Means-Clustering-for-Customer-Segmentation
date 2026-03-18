@@ -15,6 +15,7 @@ To write a program to implement the K Means Clustering for Customer Segmentation
 5.Plot data points in a scatter plot, color-coded by cluster assignments for interpretation.
 
 ## Program:
+
 Program to implement the K Means Clustering for Customer Segmentation.
 Developed by: Vishnuram.G.N
 RegisterNumber:  212225240187
