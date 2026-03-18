@@ -19,6 +19,7 @@ To write a program to implement the K Means Clustering for Customer Segmentation
 Program to implement the K Means Clustering for Customer Segmentation.
 Developed by: Vishnuram.G.N
 RegisterNumber:  212225240187
+
 import pandas as pd
 import matplotlib.pyplot as plt
 data = pd.read_csv("Mall_Customers.csv")
@@ -31,7 +32,7 @@ for i in range(1,11):
     kmeans = KMeans(n_clusters = i,init = "k-means++",n_init=10)
     kmeans.fit(data.iloc[:,3:])
     wcss.append(kmeans.inertia_)
-plt.plot(range(1,11),wcss)
+    plt.plot(range(1,11),wcss)
 plt.xlabel("No. of Clusters")
 plt.ylabel("wcss")
 plt.title("Elbow Method")
